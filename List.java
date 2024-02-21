@@ -143,8 +143,9 @@ public class List {
 	    Node current = first;
 	    int i = 0;
         while (current != null) {
-    	    arr[i++]  = current.cp;
+    	    arr[i]  = current.cp;
     	    current = current.next;
+            i++;
         }
         return arr;
     }
