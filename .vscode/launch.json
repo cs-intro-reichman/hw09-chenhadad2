@@ -43,7 +43,8 @@
             "name": "ListTester",
             "request": "launch",
             "mainClass": "ListTester",
-            "projectName": "hw09-chenhadad2_33019b5e"
+            "projectName": "hw09-chenhadad2_33019b5e",
+            "args": ""
         }
     ]
 }

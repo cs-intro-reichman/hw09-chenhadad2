@@ -51,10 +51,10 @@ public class List {
         }
         while (newlist.hasNext()) {
             charData = newlist.next();
-            result += charData.toString();
+            result += charData.toString()+" ";
         }
-        result += newlist.current.cp.toString();
-        return result;
+
+        return "(" + result.substring(0,result.length()-1)+ ")";
     }
 
     /** Returns the index of the first CharData object in this list
